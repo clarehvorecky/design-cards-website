@@ -14,7 +14,7 @@ import truckIcon from "../assets/truck.png"
 import thriftIcon from "../assets/thrift.png"
 import bikeSceneIcon from "../assets/bike.png"
 import communityIcon from "../assets/community.png"
-import citySceneIcon from "../assets/cityScene.png"
+import citySceneIcon from "../assets/cityscene.png"
 import plusIcon from "../assets/plusIcon.png"
 import earthIcon from '../assets/heartearth.png'
 import cartIcon from '../assets/shoppingcart.png'

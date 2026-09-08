@@ -7,7 +7,7 @@ import shelterIcon from "../assets/shelter.png"
 import transportationIcon from "../assets/transportation.png"
 import foodIcon from "../assets/food.png"
 import houseIcon from "../assets/house.jpg"
-import pathwayCardsPDF from "../assets/pathwayCards.pdf"
+import pathwayCardsPDF from "../assets/PathwayCards.pdf"
 import { SustainabilityCardsLayout } from "../Components/CardLayout"
 import Heading from "../Components/Heading"
 

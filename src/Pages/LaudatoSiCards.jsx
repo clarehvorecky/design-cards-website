@@ -8,7 +8,7 @@ import SpiritualityIcon from "../assets/spirituality.png"
 import EnpowermentIcon from "../assets/empowerment.png"
 import riverIcon from "../assets/riverScene.jpg"
 import PoorIcon from "../assets/poor.png"
-import LaudatoSiCardsPDF from "../assets/laudatoSiCards.pdf"
+import LaudatoSiCardsPDF from "../assets/LaudatoSiCards.pdf"
 import Heading from '../Components/Heading'
 export function LaudatoSiCards(){
     return(
