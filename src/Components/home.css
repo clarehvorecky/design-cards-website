@@ -1,0 +1,13 @@
+
+
+.line{
+    height: 3px;
+    background-color: white;
+    width: 90%;
+    margin: 30px auto;   
+}
+
+.brown{
+    font-weight: bold;
+    color: rgb(99, 36, 33);
+}

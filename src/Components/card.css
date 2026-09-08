@@ -1,0 +1,346 @@
+/*print card formatting and display page formatting  */
+.printable-cards {
+  display: flex;
+  gap: 20px;
+}
+
+@media print {
+ 
+  @page {
+    size: letter portrait;
+    margin: 0;
+  }
+
+  .printable-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 3.4in);
+    grid-auto-rows: 5.3in;
+    justify-content: center;
+    align-items: center;
+    row-gap: .1in;
+    column-gap:.5in;
+  }
+
+  .printable-cards >*{
+     break-inside: avoid;
+    page-break-inside: avoid;
+    margin: 0;
+  }
+
+  .printable-cards >*:nth-child(4n) {
+     break-after: page;
+    page-break-after: always;
+  }
+
+  .card-transpathway,
+  .card-shelterspathway,
+  .card-foodpathway,
+  .card-purchasepathway,
+  .card-laudatosi {
+
+     transform: scale(1.1); 
+  }
+}
+/*card imaging formatting*/
+.card-logo{
+   position:absolute;
+   top: 0;
+   left:0;
+   transform: translate(-12%,-101%);
+
+}
+.card-transpathway .card-logo{
+  width: 13.5%;
+  height: 12%;
+}
+.card-shelterspathway .card-logo{
+  width: 13.5%;
+  height: 12%;
+}
+.card-foodpathway .card-logo{
+  width: 13.5%;
+  height: 12%;
+}
+
+.card-purchasepathway .card-logo{
+  width: 13.5%;
+  height: 12%;
+}
+
+.card-image-laudatosi{
+   position:absolute;
+   bottom: 5%;
+   right: 5%;
+  max-width: 23%;
+  max-height:25%
+}   
+
+
+.card-image-sdg{
+  position:absolute; 
+  transform: translate(1%,-41%); 
+  top: 0;
+  left:198px;
+  max-width: 29%;
+  max-height:29%;
+ 
+}  
+.card-title-sdg{
+  margin-top: 21%;
+  font-size: 21px;
+}
+
+.card-image-villanova{
+   position:absolute;
+   bottom: 5%;
+   right: 5%;
+  max-width: 30%;
+  max-height:30%
+}   
+
+.card-image-pathway{
+  position: absolute;
+  left: 50%;
+  bottom: 2%;
+  transform: translateX(-50%); 
+}   
+.card-image-size-usa{
+  max-width: 70%;
+  max-height: 70%; 
+  
+}   
+.card-image-size-world{
+  max-width: 70%;
+  max-height: 70%; 
+  
+}   
+.card-image-size-philly{
+  max-width: 35%;
+  max-height: 35%; 
+  
+}   
+
+
+/*card information formatting*/
+.card-title-default{
+    font-family: 'fraunces';
+    margin-top: 10%;
+    color: black;
+    text-align: center;
+    font-size: 137%;
+    margin-bottom: 5%;
+}
+.card-info{
+    color: black;
+    text-align: center;
+    margin:2%;
+    font-size: 122%;
+   
+}
+.card-footer{
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: .05;
+  right: 0;
+  margin-right: 10px;
+  font-family:'fraunces';
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(+150%);
+  color: white;
+}
+
+/*pathway card colors and formatting*/
+
+.card-laudatosi{ 
+    border: 2rem solid rgb(3, 46, 3);
+    margin:0.5rem;
+    text-align: center;
+    width: 15rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(200, 249, 200);
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-transpathway{ 
+    outline: 5px solid #996d2a;
+    border-block: 38px solid #c38e40;
+    margin:0.5rem;
+    text-align:left;
+    width: 18.5rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 10px 10px 10px white;
+    position: relative;
+}
+.card-shelterspathway{ 
+    outline: 5px solid #387b87;
+    border-block: 38px solid #41a7b9;
+    margin:0.5rem;
+    text-align: left;
+    width: 18.5rem;
+    height: 350px;
+    background-color: white;
+   box-shadow: 10px 10px 10px white;
+    position: relative;
+}
+.card-foodpathway{
+    outline: 5px solid #456f33;
+    border-block: 38px solid #64a149;
+    margin:0.5rem;
+    text-align: left;
+    width: 18.5rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 10px 10px 10px white;
+    position: relative;
+}
+.card-purchasepathway{
+    outline: 5px solid#953030;
+    border-block: 38px solid #d74646;
+    margin:0.5rem;
+    text-align: left;
+    width: 18.5rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 10px 10px 10px white;
+    position: relative;
+}
+
+.card-caritas{ 
+    border: 2rem solid rgb(142, 50, 50);
+    margin:0.5rem;
+    text-align: center;
+    width: 15rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(254, 220, 220);
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-unitas{ 
+    border: 2rem solid #36629d;
+    margin:0.5rem;
+    text-align: center;
+    width: 15rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(204, 232, 249);
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-veritas{ 
+    border: 2rem solid rgb(42, 122, 77);
+    margin:0.5rem;
+    text-align: center;
+    width: 15rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(204, 250, 209);
+    position: relative;
+    border-radius: 10px;
+}
+.card-sdg{ 
+    margin:0.5rem;
+    text-align: center;
+    width: 15rem;
+    height: 350px;
+    background-color: white;
+    box-shadow: 0px 10px 10px rgb(254, 245, 220);
+    position: relative;
+    border-radius: 10px;
+}
+
+.card-sdg-overview{
+   border: 2rem solid #5b1760;
+}
+.card-sdg-one{
+   border: 2rem solid #E5243B;
+}
+.card-sdg-two{
+   border: 2rem solid #DDA63A;
+}
+.card-sdg-three{
+   border: 2rem solid #4C9F38;
+}
+.card-sdg-four{
+   border: 2rem solid #C5192D;
+}
+.card-sdg-five{
+   border: 2rem solid #FF3A21;
+}
+.card-sdg-six{
+   border: 2rem solid #26BDE2;
+}
+.card-sdg-seven{
+   border: 2rem solid #FCC30B;
+}
+.card-sdg-eight{
+   border: 2rem solid#A21942;
+}
+.card-sdg-nine{
+   border: 2rem solid #FD6925;
+}
+.card-sdg-ten{
+   border: 2rem solid #DD1367;
+}
+.card-sdg-eleven{
+   border: 2rem solid #FD9D24;
+}
+.card-sdg-twelve{
+   border: 2rem solid #BF8B2E;
+}
+.card-sdg-thirteen{
+   border: 2rem solid #3F7E44;
+}
+.card-sdg-fourteen{
+   border: 2rem solid #0A97D9;
+}
+.card-sdg-fifteen{
+   border: 2rem solid #56C02B;
+}
+.card-sdg-sixteen{
+   border: 2rem solid #00689D;
+}
+.card-sdg-seventeen{
+   border: 2rem solid #19486A;
+}
+
+.card-caritas,
+.card-unitas,
+.card-veritas{
+  transform: scale(1.1);
+}
+
+.card-laudatosi{
+  transform: scale(1.05);
+}
+
+/*card info classes*/
+.bold {
+  font-weight: bold;
+}
+
+.trash:hover{
+  color: rgb(255, 235, 154);
+
+}
+
+.trash:active{
+  color: rgb(255, 92, 92);
+
+}
+
+.card-text-box.limit-reached:focus {
+    outline: 2px solid red;
+}
+
+.card-title.limit-reached:focus {
+    outline: 2px solid red;
+}
