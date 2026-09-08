@@ -22,11 +22,11 @@ function ScrollToTop() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/design-cards-website">
        <ScrollToTop />
       <Nav/>
       <Routes>
-        <Route path ="/Home" element={<Home/>}/>
+        <Route path ="/" element={<Home/>}/>
         <Route path ="/OurCards" element={<OurCards/>}/>
         <Route path ="/CreateYourCards" element={<CreateYourCards/>}/>
         <Route path ="/SustainabilityCards" element ={<SustainabilityCards/>}/>
