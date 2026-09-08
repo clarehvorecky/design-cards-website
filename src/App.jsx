@@ -26,7 +26,7 @@ function App() {
        <ScrollToTop />
       <Nav/>
       <Routes>
-        <Route path ="/" element={<Home/>}/>
+        <Route path ="/Home" element={<Home/>}/>
         <Route path ="/OurCards" element={<OurCards/>}/>
         <Route path ="/CreateYourCards" element={<CreateYourCards/>}/>
         <Route path ="/SustainabilityCards" element ={<SustainabilityCards/>}/>
