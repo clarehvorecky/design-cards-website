@@ -27,7 +27,7 @@ export function CreateYourCards(){
                 <div style ={{backgroundColor:"white", height:"10px", width:"100%"}}></div>
                 <div id = "transportation" style ={{backgroundColor:"#F6E5BB", height:"30px", width:"100%"}}></div>
                     <div style ={{display: 'flex', height: '100%', backgroundColor:"#F6E5BB"}}>
-                    <div style = {{backgroundColor:"rgb(203, 176, 108)", margin:"10px" ,padding:"4% 2% 4% 2%", display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px"}}>
+                    <div style = {{backgroundColor:"rgb(203, 176, 108)", margin:"10px" ,padding:"4% 2% 4% 2%", display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px", width:"clamp(100px, 33vw, 2000px)"}}>
                         <Card 
                             logoSrc={transportationIcon}
                             variant = "transpathway"
@@ -42,7 +42,7 @@ export function CreateYourCards(){
                         </Card>
 
                     </div>
-                        <div style={{backgroundColor:"rgb(203, 176, 108)", width:"100%", height: "clamp(400px, 90vw, 600px)",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}> 
+                        <div style={{backgroundColor:"rgb(203, 176, 108)", width:"100%", height: "clamp(600px, 41vw, 900px)",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}> 
                         <CardOpener
                         className ="card-menu-transportation"
                         buttonClassName = "card-button-transportation"
@@ -59,7 +59,7 @@ export function CreateYourCards(){
 
                 <div id= "shelter-energy"  style ={{backgroundColor:"rgb(192, 245, 252)", height:"30px", width:"100%", overflow:"scroll"}}></div>
                     <div style ={{display: 'flex', height: '100%', backgroundColor:" rgb(192, 245, 252)"}}>
-                    <div  style = {{backgroundColor:" rgb(124, 188, 196)", padding:"4% 2% 4% 2%",display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px", margin:"10px"}}>
+                    <div  style = {{backgroundColor:" rgb(124, 188, 196)", padding:"4% 2% 4% 2%",display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px", margin:"10px",width:"clamp(100px, 33vw, 2000px)"}}>
                         <Card 
                             logoSrc={shelterIcon}
                             variant = "shelterspathway"
@@ -72,7 +72,7 @@ export function CreateYourCards(){
                             focuses creating on sustainable housing using:less and renewable power, efficient designs and eco-friendly materials to reduce emissions and improve living conditions.
                         </Card>
                     </div>
-                        <div style={{backgroundColor:" rgb(124, 188, 196)",margin:"10px", width: "100%", height: "600px",display:"flex", alignItems:"center", justifyContent:"center",position:"relative", borderRadius:"15px"}}>
+                        <div style={{backgroundColor:" rgb(124, 188, 196)",margin:"10px", width: "100%", height: "clamp(600px, 41vw, 900px)",display:"flex", alignItems:"center", justifyContent:"center",position:"relative", borderRadius:"15px"}}>
                         <CardOpener
                             className ="card-menu-shelter"
                             buttonClassName = "card-button-shelter"
@@ -90,7 +90,7 @@ export function CreateYourCards(){
 
                 <div id = "food-water" style ={{backgroundColor:"rgb(205, 255, 213)", height:"30px", width:"100%"}}></div>
                     <div style ={{display: 'flex', height: '100%', backgroundColor:"rgb(205, 255, 213)"}}>
-                    <div style = {{backgroundColor:"rgb(136, 211, 147)", padding:"4% 2% 4% 2%",display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px", margin:"10px"}}>
+                    <div style = {{backgroundColor:"rgb(136, 211, 147)", padding:"4% 2% 4% 2%",display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px", margin:"10px",width:"clamp(100px, 33vw, 2000px)"}}>
                         <Card 
                             logoSrc={foodIcon}
                             variant = "foodpathway"
@@ -103,7 +103,7 @@ export function CreateYourCards(){
                             encourages the environmentally friendly production and consumption of food and water by consuming less water in and outside of our homes while also wasting less food. The goals for this pathway are improving water use efficiency, ending food and water scarcity and reducing pollution.
                          </Card>
                     </div>
-                        <div style={{backgroundColor:"rgb(136, 211, 147)", width: "100%", height: "600px",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}>
+                        <div style={{backgroundColor:"rgb(136, 211, 147)", width: "100%", height: "clamp(600px, 41vw, 900px)",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}>
                         <CardOpener 
                             className ="card-menu-food"
                             buttonClassName="card-button-food"
@@ -120,7 +120,7 @@ export function CreateYourCards(){
 
                 <div id = "consumer-purchases" style ={{backgroundColor:"rgb(253, 209, 209)", height:"30px", width:"100%px"}}></div>
                     <div style ={{display: 'flex', height: '100%', backgroundColor:"rgb(253, 209, 209)"}}>
-                    <div style = {{backgroundColor:"rgb(230, 156, 156)", padding:"4% 2% 4% 2%",display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px", margin:"10px"}}>
+                    <div style = {{backgroundColor:"rgb(230, 156, 156)", padding:"4% 2% 4% 2%",display:"flex", alignItems:"center", justifyContent:"center", borderRadius:"15px", margin:"10px",width:"clamp(100px, 33vw, 2000px)"}}>
                         <Card 
                             logoSrc={purchasesIcon}
                             variant = "purchasepathway"
@@ -132,7 +132,7 @@ export function CreateYourCards(){
                             tracks the lifecycle of products people buy: how they're made, transported, used, and thrown away, and how each stage contributes to carbon emissions, waste, and resource depletion.
                         </Card>
                    </div>
-                        <div style={{backgroundColor:"rgb(230, 156, 156)", width: "100%", height: "600px",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}>
+                        <div style={{backgroundColor:"rgb(230, 156, 156)", width: "100%", height: "clamp(600px, 41vw, 900px)",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}>
                         <CardOpener 
                             className ="card-menu-purchase"
                             buttonClassName="card-button-purchase"

@@ -126,8 +126,8 @@ const storageKey = `${pathwayTitle}`;
         width: "fit-content",
       }}
     ></div>
-   <div style ={{display: "flex", flexShrink:0,flexWrap: "nowrap", gap: "20px",overflowX: "auto", height: "95%",paddingLeft:"20px", paddingRight:"20px" ,borderRadius:"10px", 
-   width: "95%",maxWidth:"1000px",border:("2px solid"),  alignItems:"center",borderColor:cardBorderColor}}>
+   <div id = "scalable-box" style ={{display: "flex", flexShrink:0,flexWrap: "nowrap", gap: "20px",overflowX: "auto", height: "95%",paddingLeft:"20px", paddingRight:"20px" ,borderRadius:"10px", 
+   width:"clamp(100px, 67vw, 3000px)",maxWidth:"94%",border:("2px solid"),  alignItems:"center",borderColor:cardBorderColor}}>
     <div ref={printRef} className="printable-cards">
       {cards.map((card) => (
         <CustomCard /*formatting card slider and cards/create card button */
@@ -171,7 +171,7 @@ const storageKey = `${pathwayTitle}`;
       <>
       <div>
      
-        <div style ={{ gap:"10px",display:"flex",flexDirection:"row",justifyContent:"center", position:"absolute",alignItems:"center",right:"45px", top:"25px",}}>
+        <div style ={{ gap:"10px",display:"flex",flexDirection:"row",justifyContent:"center", position:"absolute",alignItems:"center",right:"clamp(10px, 2vw, 500px)", top:"25px",}}>
 
         {storedDeletedCard.length>0 &&  (
         <button className="undo-button" onClick={undoDelete}>
@@ -200,7 +200,7 @@ const storageKey = `${pathwayTitle}`;
      
       </div>
       </>
-      <p style={{ position: "absolute", bottom: "25px", right: "50px", fontSize:"17px", color:isCardLimit?"red":"black" }}>
+      <p style={{ position: "absolute", bottom: "25px", right: "clamp(10px, 3vw, 500px)", fontSize:"17px", color:isCardLimit?"red":"black" }}>
         {cards.length}/12 cards created
       </p>
     </>
