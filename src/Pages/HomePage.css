@@ -144,7 +144,7 @@ align-self: flex-start;
 
 .heading-content-homepage{
   margin-right: auto;
-  margin-left: 0;
+  margin-left: 0px;
 justify-content: flex-start;
  color: rgb(255, 234, 223);
   padding: 24px 42px;

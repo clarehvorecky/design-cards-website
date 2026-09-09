@@ -2,10 +2,21 @@ import { useState } from 'react'
 import navIcon from "../assets/nav.png"
 import './nav.css'
 import { NavLink } from 'react-router-dom'
+import { isSafari } from "./IsSafari";
+import NotificationPopup from "./NotificationPopup";
 
 
 export function Nav() {
   const [showSub, setShowSub] = useState(false)
+  const [showSafariWarning, setShowSafariWarning] = useState(false);
+  const handleDownloadClick = () =>{
+    if(isSafari()){
+      setShowSafariWarning(true)
+    }
+    else
+      setShowSafariWarning(false)
+  };
+
   return (
     <div>
       <header>
@@ -33,10 +44,21 @@ export function Nav() {
           </ul>
           )}
           </li>
-          <li><NavLink to ="/createyourcards" className={({ isActive }) => (isActive ? "active" : "")}>Create your own Cards</NavLink></li>
+          <li><NavLink to ="/createyourcards" 
+            className={({ isActive }) => (isActive ? "active" : "")}  
+            onClick={() => {
+              if(isSafari()){
+                setShowSafariWarning(true)}
+             }}
+          >Create your own Cards</NavLink></li>
         </ul>
       </div>
+      <NotificationPopup
+        isOpen={showSafariWarning}
+        onClose={() => setShowSafariWarning(false)}
+      />
     </div>
+    
   )
 }
 

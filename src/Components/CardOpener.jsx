@@ -6,8 +6,6 @@ import {CardMenu} from "./CardMenu";
 import {CardButton} from "./CardButton";
 import {Button} from "./Button";
 import { useReactToPrint } from "react-to-print";
-import { isSafari } from "./IsSafari";
-import NotificationPopup from "./NotificationPopup";
 import './card.css'
 function CardOpener({className, buttonClassName, logoSrc, variant, footer,pathwayTitle,lineColor}) {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -119,15 +117,6 @@ const storageKey = `${pathwayTitle}`;
     preserveAfterPrint: true,
   });
 
-   /*Safari download warning */
-  const [showSafariWarning, setShowSafariWarning] = useState(false);
-  const handleDownloadClick = () => {
-    if (isSafari()) {
-      setShowSafariWarning(true);
-    } else {
-      handlePrint();
-    }
-  };
 
   return (
    <> 
@@ -203,7 +192,7 @@ const storageKey = `${pathwayTitle}`;
         />
         <Button
           className="reset-button"
-          onClick={handleDownloadClick}
+          onClick={handlePrint}
           text="Download Cards"
         />
         
@@ -214,11 +203,6 @@ const storageKey = `${pathwayTitle}`;
       <p style={{ position: "absolute", bottom: "25px", right: "50px", fontSize:"17px", color:isCardLimit?"red":"black" }}>
         {cards.length}/12 cards created
       </p>
-
-      <NotificationPopup
-        isOpen={showSafariWarning}
-        onClose={() => setShowSafariWarning(false)}
-      />
     </>
  
   );

@@ -7,10 +7,10 @@ const CardTypes=[
 ]
 function CardType({title,image,info,path}){
     const cardStyle = {
-        width: "clamp(350px, 91vw, 500px)",
-        height: "clamp(100px, 8.5vw, 400px)",
+        width: "clamp(300px, 91vw, 500px)",
+        height: "clamp(120px, 8.5vw, 400px)",
         borderRadius: "15px",
-        backgroundColor: "rgb(212, 243, 229)",
+        backgroundColor: "rgb(177, 235, 209)",
         display: "flex",
         flexDirection: "column",
         alignItems: "center",

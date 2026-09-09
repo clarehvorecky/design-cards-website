@@ -14,7 +14,7 @@ export function OurResearch(){
                     from our participatory and speculative design workshops, we want to build a low-code platform that local communities
                     can use to promote sustainable living. We hope to bridge the gap between Technological Design, Sustainability, and 
                     Religion/Spirituality so future researchers can use our findings to develop effective solutions to combat <span className="brown">environmental
-                    challenges</span> globally. This research is supported by the U.S National Science Foundation under the Grant #2451074</p>
+                    challenges</span> globally. This research is supported by the U.S National Science Foundation under the <a className="pathway" href = "https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2451074">Grant #2451074.</a> </p>
                 </div>
             </div>    
         </section>
