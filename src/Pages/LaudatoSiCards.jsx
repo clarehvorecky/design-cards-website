@@ -16,11 +16,10 @@ export function LaudatoSiCards(){
         <Heading
             img={riverIcon}
             title="Laudato Si Value Cards"
-            theme="dark"
+             theme="light"
         >
-            These are our Laudato Si Value Cards, which we created inspired by Pope Francis's encyclical Laudato Si,
-            and its call for Ecological Conversion by caring for our environment and all of its inhabitants. 
-            You can use these cards to frame sustainability under Pope Francis' vision of Integral Ecology and push for Ecological Conversion.
+            Our Laudato Si Value Cards are inspired by Pope Francis's encyclical Laudato Si,
+            and its call for Ecological Conversion. You can use these cards to frame sustainability under Pope Francis' vision of Integral Ecology and push for Ecological Conversion.
            <a className="pathway" href ={LaudatoSiCardsPDF} download ="Laudato Si Value Cards.pdf"> Download Cards Here!</a>
         </Heading>
  <div style ={{backgroundColor:"white", height:"10px", width:"1000%"}}></div>

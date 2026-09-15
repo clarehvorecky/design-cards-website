@@ -22,9 +22,9 @@ export function Nav() {
       <header>
         <h1 style={{display:"flex", gap:"50px", alignItems:"center", justifyContent:"left"}}> 
           <img style={{maxWidth:"8%",maxHeight:"15%"}} src = {navIcon}></img>
-          <div>
-            <p style={{fontSize:"20px", color:"rgb(138, 98, 46)", fontFamily:"cursive", textShadow:"none"}}>Computing Sciences Department at Villanova University</p>
+          <div style ={{display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"column"}}>
             Sustainable Design Cards
+            <p style={{fontSize:"20px", color:"rgb(138, 98, 46)", fontFamily:"cursive", textShadow:"none"}}>Computing Sciences Department at Villanova University</p>
           </div>
         </h1>
       </header>

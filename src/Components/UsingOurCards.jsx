@@ -6,9 +6,7 @@ import purchasesIcon from "../assets/purchases.png"
 import shelterIcon from "../assets/shelter.png"
 import transportationIcon from "../assets/transportation.png"
 import foodIcon from "../assets/food.png"
-import heartIcon from "../assets/heart.png"
-import scaleIcon from "../assets/scale.png"
-import armsIcon from "../assets/arms.png"
+
 
 const pathwayCards=[
     <div className="pathway-card-wrapper">

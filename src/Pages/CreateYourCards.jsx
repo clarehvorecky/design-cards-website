@@ -18,11 +18,9 @@ export function CreateYourCards(){
         title="Create Your Own Cards"
         theme="dark">
         Do you want to utilize our design cards in your studies, research and other workshops 
-        but you are not located in the Philadelphia area? On this page, you will be able to customize
-        your own pathway cards by entering statistics, information and images about the pathways to
-        sustainable living: <a className="pathway"href ="#transportation"> Transportation</a>, <a className="pathway"href="#shelter-energy"> Shelter/Energy</a>,    
-        <a className="pathway"href="#food-water"> Food/Water</a> & <a className="pathway"href="#consumer-purchases"> Consumer Purchases</a>, relevant to your local communities. We hope that you are able to design meaningful cards 
-        that will create impactful change and increase sustainability habits in your communities!   
+        but aren't living in Philadelphia area? On this page, you will be able to customize, save and download
+        your own personal pathway cards by entering your own statistics about the  <a className="pathway"href ="#transportation"> Transportation</a>, <a className="pathway"href="#shelter-energy"> Shelter/Energy</a>,    
+        <a className="pathway"href="#food-water"> Food/Water</a> & <a className="pathway"href="#consumer-purchases"> Consumer Purchases</a>, pathways to sustainability.
         </Heading>
                 <div style ={{backgroundColor:"white", height:"10px", width:"100%"}}></div>
                 <div id = "transportation" style ={{backgroundColor:"#F6E5BB", height:"30px", width:"100%"}}></div>

@@ -19,8 +19,8 @@ export function SustainabilityCards(){
             img={houseIcon}
             theme="light"
         >
-            These are our Sustainable Pathway Cards. We decided to focus on four key pathways you can follow to live a sustainable lifestyle:
-            <a className="pathway" href="#trans-pathway">Transportation</a>, <a className="pathway" href="#shelter-pathway">Shelter/Energy</a>, <a className="pathway" href="#food-pathway">Food/Water</a> & <a className="pathway"href="#purchases-pathway">Consumer Purchases</a>. The following cards below contains statistics showing the effects of environmental pollution in these pathways on Local, National and Global levels.
+           Our Sustainable Pathway Cards focus on four key pathways to follow to live a sustainable lifestyle:
+            <a className="pathway" href="#trans-pathway">Transportation</a>, <a className="pathway" href="#shelter-pathway">Shelter/Energy</a>, <a className="pathway" href="#food-pathway">Food/Water</a> & <a className="pathway"href="#purchases-pathway">Consumer Purchases</a>. These cards contain statistics showing the effects of pollution, resource overuse and wasting on Local, National and Global levels.
              <a className="pathway"href ={pathwayCardsPDF} download ="Sustainability Cards.pdf"> Download Cards Here!</a>     
         </Heading>
     

@@ -12,11 +12,9 @@ export function VillanovaCards(){
         <Heading
         img={farmIcon}
         title="Villanova Value Cards"
-        theme="dark"
+        theme="light"
         >
-            These are our Villanova Value cards, which we created based on Villanova's core Augustinian values.
-             These cards serve as a guide for how the Villanovan community can live out these values Caritas, Veritas, and Unitas while 
-             serving the common good. You can use these cards to view sustainability issues through an Augustinian lens by following 
+            Our Villanova Value cards are created based on Villanova's core Augustinian values of Caritas, Veritas, and Unitas. You can use these cards to frame sustainability through an Augustinian lens by encouraging
              St. Augustine's call towards environmental stewardship and care for all life.<a className="pathway"href ={VillanovaCardsPDF} download ="Villanova Value Cards.pdf"> Download Cards Here!</a>     
         </Heading>
          <div style ={{backgroundColor:"white", height:"10px", width:"100%"}}></div>
