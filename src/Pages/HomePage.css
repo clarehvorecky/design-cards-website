@@ -122,8 +122,29 @@ align-self: flex-start;
   margin: 100px 0px 100px 0px;
  text-shadow: 4px 4px 5px rgb(76, 76, 76);
  font-family:Impact,'Arial Narrow Bold', sans-serif;
- 
 }
+
+.heading-title-design{
+  align-self: flex-start;
+  color:  rgb(247, 240, 230);
+  letter-spacing: 5px; 
+  font-size: clamp(1rem, 6vw, 10rem);
+  border-radius: 10px;
+  background-color: #1a592cc9;
+  padding: clamp(1rem, 2vw, 10rem);
+  margin: 100px 0px 100px 0px;
+ text-shadow: 4px 4px 5px rgb(76, 76, 76);
+ font-family:Impact,'Arial Narrow Bold', sans-serif;
+}
+
+.heading-content-design {
+  border-radius: 15px;
+  width: clamp(100px, 80vw, 2000px);
+  text-align: center;
+  font-size: clamp(5px, 2.5vw, 50px);
+  font-family:'Times New Roman', Times, serif;
+}
+
 .heading-content-default {
   padding: 4%;
   border-radius: 15px;

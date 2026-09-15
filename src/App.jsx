@@ -5,6 +5,7 @@ import { Home } from './Pages/Home'
 import { OurCards } from './Pages/OurCards'
 import{CreateYourCards} from './Pages/CreateYourCards'
 import { SustainabilityCards } from './Pages/SustainabilityCards'
+import { AboutDesignCards } from './Pages/AboutDesignCards'
 import { LaudatoSiCards } from './Pages/LaudatoSiCards'
 import { VillanovaCards } from './Pages/VillanovaCards'
 import { SDGCards } from './Pages/SDGCards'
@@ -27,6 +28,7 @@ function App() {
       <Nav/>
       <Routes>
         <Route path ="/" element={<Home/>}/>
+        <Route path ="/AboutDesignCards" element ={<AboutDesignCards/>}/>
         <Route path ="/OurCards" element={<OurCards/>}/>
         <Route path ="/CreateYourCards" element={<CreateYourCards/>}/>
         <Route path ="/SustainabilityCards" element ={<SustainabilityCards/>}/>

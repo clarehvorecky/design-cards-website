@@ -30,10 +30,19 @@ export function Nav() {
       </header>
       <div className="topnav">
         <ul>
-          <li><NavLink to ="/"className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink></li>
           <li className="dropdown"
-          onMouseEnter={()=>setShowSub(true)}
-          onMouseLeave={()=>setShowSub(false)}>
+            onMouseEnter={()=>setShowSub(true)}
+            onMouseLeave={()=>setShowSub(false)}>
+          <li><NavLink to ="/"className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink></li>
+            {showSub && (
+            <ul className="cardDropdown">
+              <li><NavLink to ="/AboutDesignCards">Design Cards</NavLink></li>
+            </ul>
+            )}
+          </li>
+          <li className="dropdown"
+            onMouseEnter={()=>setShowSub(true)}
+            onMouseLeave={()=>setShowSub(false)}>
           <a href="#contact">Our Cards</a>
           {showSub && (
           <ul className="cardDropdown">
