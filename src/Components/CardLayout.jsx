@@ -2,10 +2,6 @@ import planeIcon from "../assets/planePeople.jpg"
 import turbineIcon from "../assets/windTurbine.jpg"
 import cropIcon from "../assets/food.jpg"
 import clothesIcon from "../assets/clothes.png"
-import purchasesIcon from "../assets/purchases.png"
-import shelterIcon from "../assets/shelter.png"
-import transportationIcon from "../assets/transportation.png"
-import foodIcon from "../assets/food.png"
 export function SustainabilityCardsLayout ({id,background, children,pathwayTitle,pathway}){
 
      const pathwayColors ={

@@ -148,7 +148,7 @@ function CardType({title, image}){
     return(
        <div style={{display:"flex", flexDirection:"column",alignItems:"center", justifyContent:"center", gap:"27px"}}>
         <span className="home-info">3. Apply the Cards</span>
-        <div style={{width:"clamp(18rem, 21vw, 20rem)", height:"clamp(28.5rem, 20vw, 400rem)",borderRadius:"15px", backgroundColor:" rgb(174, 219, 198)",display:"flex",alignItems:"center", justifyContent:"center", border:"5px solid darkgreen",boxShadow: "5px 10px 10px rgb(244, 244, 244)" }}>
+        <div style={{width:"clamp(17.5rem, 21vw, 20rem)", height:"clamp(25rem, 30vw, 30rem)",borderRadius:"15px", backgroundColor:" rgb(174, 219, 198)",display:"flex",alignItems:"center", justifyContent:"center", border:"5px solid darkgreen",boxShadow: "5px 10px 10px rgb(244, 244, 244)" }}>
             <img src={image}></img>
             <span style={{fontSize:"25px",color:"rgb(139, 94, 17)", textAlign:"center"}}>{title}</span>
         </div>

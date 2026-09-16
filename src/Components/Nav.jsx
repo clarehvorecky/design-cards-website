@@ -7,7 +7,7 @@ import NotificationPopup from "./NotificationPopup";
 
 
 export function Nav() {
-  const [showSub, setShowSub] = useState(false)
+  const [openMenu, setOpenMenu] = useState(null)
   const [showSafariWarning, setShowSafariWarning] = useState(false);
   const handleDownloadClick = () =>{
     if(isSafari()){
@@ -21,30 +21,30 @@ export function Nav() {
     <div>
       <header>
         <h1 style={{display:"flex", gap:"50px", alignItems:"center", justifyContent:"left"}}> 
-          <img style={{maxWidth:"8%",maxHeight:"15%"}} src = {navIcon}></img>
+          <img className = "navImg" style={{maxWidth:"8%",maxHeight:"15%"}} src = {navIcon}></img>
           <div style ={{display:"flex", alignItems:"center", justifyContent:"center", flexDirection:"column"}}>
             Sustainable Design Cards
-            <p style={{fontSize:"20px", color:"rgb(138, 98, 46)", fontFamily:"cursive", textShadow:"none"}}>Computing Sciences Department at Villanova University</p>
+            <p style={{fontSize:"23px", color:"rgb(138, 98, 46)", fontFamily:"cursive", textShadow:"none"}}>Computing Sciences Department at Villanova University</p>
           </div>
         </h1>
       </header>
       <div className="topnav">
         <ul>
           <li className="dropdown"
-            onMouseEnter={()=>setShowSub(true)}
-            onMouseLeave={()=>setShowSub(false)}>
+            onMouseEnter={()=>setOpenMenu('home')}
+            onMouseLeave={()=>setOpenMenu(null)}>
           <li><NavLink to ="/"className={({ isActive }) => (isActive ? "active" : "")}>Home</NavLink></li>
-            {showSub && (
+            {openMenu == 'home' && (
             <ul className="cardDropdown">
-              <li><NavLink to ="/AboutDesignCards">Design Cards</NavLink></li>
+              <li><NavLink to ="/AboutDesignCards">About Design Cards</NavLink></li>
             </ul>
             )}
           </li>
           <li className="dropdown"
-            onMouseEnter={()=>setShowSub(true)}
-            onMouseLeave={()=>setShowSub(false)}>
+            onMouseEnter={()=>setOpenMenu('cards')}
+            onMouseLeave={()=>setOpenMenu(null)}>
           <a href="#contact">Our Cards</a>
-          {showSub && (
+          {openMenu == 'cards' && (
           <ul className="cardDropdown">
             <li><NavLink to ="/SustainabilityCards">Sustainability Cards</NavLink></li>
             <li><NavLink to ="/LaudatoSiCards">Laudato Si Value Cards</NavLink></li>

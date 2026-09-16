@@ -7,8 +7,8 @@ const CardTypes=[
 ]
 function CardType({title,image,info,path}){
     const cardStyle = {
-        width: "clamp(300px, 91vw, 500px)",
-        height: "clamp(120px, 8.5vw, 400px)",
+        width: "clamp(300px, 40vw, 500px)",
+        height: "clamp(120px, 8.5vw, 190px)",
         borderRadius: "15px",
         backgroundColor: "rgb(177, 235, 209)",
         display: "flex",
@@ -21,7 +21,7 @@ function CardType({title,image,info,path}){
     };
 
     const titleStyle = {
-        fontSize: "clamp(1.2rem, 1.7vw, 3.5rem)",
+        fontSize: "clamp(1.5rem, 1.5vw, 2.5rem)",
         color: "rgb(111, 20, 2)",
         fontWeight:"bold",
     };
@@ -29,7 +29,7 @@ function CardType({title,image,info,path}){
     const infoStyle = {
         color:"rgb(31, 30, 30)",
         textAlign: "center",
-        fontSize: "clamp(1.1rem, 3vw, 1.5rem)"
+        fontSize: "clamp(1.1rem, 1.6vw, 2rem)"
     };
     return(
         <div style={cardStyle}>

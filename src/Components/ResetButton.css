@@ -9,6 +9,19 @@
     cursor: pointer;
 }
 
+.disabled-button{
+    width: 100px;
+    height: 45px;
+    background-color: rgba(58, 57, 57, 0.5);
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-style: solid;
+    border-color: rgba(58, 57, 57, 0.5);
+
+}
+
 .reset-button-text{
     font-size: 15px;
 }

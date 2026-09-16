@@ -9,7 +9,7 @@
 h1{
   color:rgb(227, 235, 234);
   text-shadow: 2px 2px 2px rgb(76, 76, 76);
-  font-size:60px;
+  font-size:70px;
   font-family:"fraunces";
   font-weight: bold;
   text-align: left;
@@ -98,5 +98,11 @@ h1{
   .dropdown ul {
     position: static; /* drop it inline instead of floating */
     width: 100%;
+  }
+}
+
+@media (max-width: 750px) {
+  .navImg{
+    display: none;
   }
 }

@@ -44,10 +44,10 @@ const storageKey = `${pathwayTitle}`;
       const cardToDelete = cards.find((card)=> card.id === cardIdToRemove);
       setStoredDeletedCard((prevDeleted) => [...prevDeleted, cardToDelete]);
 
-    setCards((prev) => {
-      const remainingCards = prev.filter((card) => card.id !== cardIdToRemove);
-      localStorage.setItem(storageKey, JSON.stringify(remainingCards));
-      setIsSaved(false);
+      setCards((prev) => {
+        const remainingCards = prev.filter((card) => card.id !== cardIdToRemove);
+        localStorage.setItem(storageKey, JSON.stringify(remainingCards));
+       
       return remainingCards;
     });
   };
@@ -63,7 +63,6 @@ const storageKey = `${pathwayTitle}`;
       localStorage.setItem(storageKey, JSON.stringify(restoredCards));
       return restoredCards;
     })
-    setIsSaved(false);
     setStoredDeletedCard((prev) => prev.slice(0, -1));
   }
    
@@ -71,6 +70,12 @@ const storageKey = `${pathwayTitle}`;
     setIsModalOpen(true);
   };
 
+  useEffect(() => {
+  if (!deleteMode) {
+    setStoredDeletedCard([]);
+  }
+  }, [deleteMode]);
+  
   /*set card limit */
   const [isCardLimit,setIsCardLimit] = useState(false);
   useEffect(() => {
@@ -173,7 +178,7 @@ const storageKey = `${pathwayTitle}`;
      
         <div style ={{ gap:"10px",display:"flex",flexDirection:"row",justifyContent:"center", position:"absolute",alignItems:"center",right:"clamp(10px, 2vw, 500px)", top:"25px",}}>
 
-        {storedDeletedCard.length>0 &&  (
+        {storedDeletedCard.length>0 && deleteMode && (
         <button className="undo-button" onClick={undoDelete}>
           <i className="bi bi-arrow-counterclockwise"></i>
          </button>
@@ -186,14 +191,14 @@ const storageKey = `${pathwayTitle}`;
           text ={deleteMode? "Cancel" : "Delete Cards"}
         />
          <Button 
-          className ="reset-button"
+          className = "reset-button"
           onClick={saveCardsToStorage}
           text={isSaved? "Cards Saved": "Save Cards"}
         />
         <Button
-          className="reset-button"
-          onClick={handlePrint}
-          text="Download Cards"
+          className ={deleteMode? "disabled-button" : "reset-button"}
+          onClick={deleteMode?"":handlePrint}
+          text ={deleteMode? "" : "Download Cards"}
         />
         
         </div>
