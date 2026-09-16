@@ -17,8 +17,8 @@ export function CreateYourCards(){
         img={fogIcon}
         title="Create Your Own Cards"
         theme="dark">
-        Do you want to utilize our design cards in your studies, research and other workshops 
-        but aren't living in Philadelphia area? On this page, you will be able to customize, save and download
+        Want to utilize our design cards in your studies, research and other workshops 
+        but aren't living in Philadelphia area? On this page, customize, save and download
         your own personal pathway cards by entering your own statistics about the  <a className="pathway"href ="#transportation"> Transportation</a>, <a className="pathway"href="#shelter-energy"> Shelter/Energy</a>,    
         <a className="pathway"href="#food-water"> Food/Water</a> & <a className="pathway"href="#consumer-purchases"> Consumer Purchases</a>, pathways to sustainability.
         </Heading>

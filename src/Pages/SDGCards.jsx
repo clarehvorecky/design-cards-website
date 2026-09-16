@@ -26,9 +26,9 @@ export function SDGCards(){
         title="Sustainable Development Goals Cards"
         img={trailIcon}
         theme="light">
-            Our Sustainable Development Goals (SDGS) Value cards are adapted from the United Nations's
-            global plan to end inequalities, create a cleaner earth and an overall eco-friendly society. You can use these cards as a 
-             guideline in following the goals that the United Nations set in your local communities. <a className="pathway"href ={SDGCardsPDF} download ="SDG Value Cards.pdf"> Download Cards Here!</a>   
+            Our Sustainable Development Goals (SDGS) Value cards are adapted from The United Nations's
+            global plan to end inequalities, create a cleaner earth and an overall eco-friendly society.These cards can help
+            your community adapt The United Nation's sustainability goals. <a className="pathway"href ={SDGCardsPDF} download ="SDG Value Cards.pdf"> Download Cards Here!</a>   
 
 
         </Heading>
