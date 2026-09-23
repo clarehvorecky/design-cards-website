@@ -19,6 +19,7 @@ import seventeenIcon from "../assets/seventeen.png"
 import trailIcon from "../assets/trail.jpg"
 import Heading from "../Components/Heading"
 import SDGCardsPDF from "../assets/SDGCards.pdf"
+import "../Components/card.css"
 export function SDGCards(){
     return(
         <>

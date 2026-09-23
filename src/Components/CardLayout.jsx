@@ -2,6 +2,7 @@ import planeIcon from "../assets/planePeople.jpg"
 import turbineIcon from "../assets/windTurbine.jpg"
 import cropIcon from "../assets/food.jpg"
 import clothesIcon from "../assets/clothes.png"
+
 export function SustainabilityCardsLayout ({id,background, children,pathwayTitle,pathway}){
 
      const pathwayColors ={

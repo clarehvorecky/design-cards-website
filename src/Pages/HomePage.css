@@ -3,18 +3,6 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 450px) {
-  .pathway-card-wrapper {
-    transform: scale(.9); 
-  }
-  .villanova-card-wrapper{
-    transform: scale(.86); 
-  }
-}
-
-@media (min-width: 1600px) {
-  
-}
 
 .page{
     width: 680px;

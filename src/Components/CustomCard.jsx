@@ -1,4 +1,5 @@
 import { Card } from "./Card"
+import './card.css'
 import {useRef, useState } from "react"
 /*icons for card images */
 import usaIcon from "../assets/usa.svg"

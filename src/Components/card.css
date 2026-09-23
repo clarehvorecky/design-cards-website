@@ -45,6 +45,21 @@
      transform: scale(1.1); 
   }
 }
+
+ @media screen and (max-width: 500px) {
+  .card-transpathway,
+  .card-shelterspathway,
+  .card-foodpathway,
+  .card-purchasepathway,
+  .card-laudatosi,
+  .card-caritas,
+  .card-unitas,
+  .card-veritas,
+  .card-sdg
+   {
+    transform: scale(.85);
+  }
+}
 /*card imaging formatting*/
 .card-logo{
    position:absolute;

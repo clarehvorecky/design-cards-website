@@ -1,4 +1,5 @@
 import './cardPage.css'
+import "../Components/card.css"
 import { Card } from "../Components/Card"
 import EarthIcon from "../assets/earth.png"
 import EconomicsIcon from "../assets/economics.png"

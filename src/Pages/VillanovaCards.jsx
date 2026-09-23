@@ -5,6 +5,7 @@ import {Card} from "../Components/Card"
 import Heading from "../Components/Heading"
 import farmIcon from "../assets/farm.jpg"
 import VillanovaCardsPDF from "../assets/VillanovaCards.pdf"
+import "../Components/card.css"
 
 export function VillanovaCards(){
     return(

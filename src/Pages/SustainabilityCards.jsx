@@ -10,6 +10,7 @@ import houseIcon from "../assets/house.jpg"
 import pathwayCardsPDF from "../assets/PathwayCards.pdf"
 import { SustainabilityCardsLayout } from "../Components/CardLayout"
 import Heading from "../Components/Heading"
+import './cardPage.css'
 
 export function SustainabilityCards(){
     return(
