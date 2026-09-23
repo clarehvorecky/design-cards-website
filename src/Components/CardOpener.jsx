@@ -170,8 +170,12 @@ const handleDownloadClick = () => {
         <div style ={{ gap:"10px",display:"flex",flexDirection:"row",justifyContent:"center", position:"absolute",alignItems:"center",right:"clamp(10px, 2vw, 500px)", top:"25px",}}>
 
         {storedDeletedCard.length>0 && (
-        <button className="undo-button" onClick={undoDelete}>
+        <button 
+        style={{display:"flex", alignItems:"center", justifyContent:"center"}}
+        className="undo-button"
+         onClick={undoDelete}>
           <i className="bi bi-arrow-counterclockwise"></i>
+           <i class="bi bi-trash-fill"></i>
          </button>
         )}
 

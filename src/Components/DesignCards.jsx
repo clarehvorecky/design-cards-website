@@ -33,7 +33,7 @@ function CardType({title,image,info,path}){
     };
     return(
         <div style={cardStyle}>
-           <Link to={path} style={titleStyle}>{title}</Link>
+           <Link to={`/${path}`} style={titleStyle}>{title}</Link>
             <span style={infoStyle}>{info}</span>
             <img src={image}></img>
         </div>
