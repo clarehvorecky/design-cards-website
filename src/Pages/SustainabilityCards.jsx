@@ -19,7 +19,7 @@ export function SustainabilityCards(){
             img={houseIcon}
             theme="light"
         >
-           Our Sustainable Pathway Cards focus on four key pathways to follow to live a sustainable lifestyle:
+           Our Sustainable Pathway Cards focus on four key pathways to live a sustainable lifestyle: 
             <a className="pathway" href="#trans-pathway">Transportation</a>, <a className="pathway" href="#shelter-pathway">Shelter/Energy</a>, <a className="pathway" href="#food-pathway">Food/Water</a> & <a className="pathway"href="#purchases-pathway">Consumer Purchases</a>. These cards contain statistics showing the effects of pollution, resource overuse and wasting on Local, National and Global levels.
              <a className="pathway"href ={pathwayCardsPDF} download ="Sustainability Cards.pdf"> Download Cards Here!</a>     
         </Heading>
@@ -38,7 +38,7 @@ export function SustainabilityCards(){
                         footer="Transportation Pathway Cards"
                     >
                     <div><div style={{ height: "2px", backgroundColor: "#B8612B", width: "90%", margin: "20px" }} /></div>
-                        encourages the use of environmentally friendly modes of transportation like public transportation or carpooling. 
+                        Encourages the use of environmentally friendly modes of transportation like public transportation or carpooling. 
                         In doing this we hope to minimize the carbon emissions that are produced by on road vehicles 
                         while also providing more cost effective environmentally friendly modes of transportation.
                     </Card>
@@ -96,7 +96,7 @@ export function SustainabilityCards(){
                         footer="Shelter/Energy Pathway Cards"       
                     >
                     <div><div style={{ height: "2px", backgroundColor: "#0097B2", width: "90%", margin: "20px" }} /></div>
-                        focuses on creating sustainable housing using:less and renewable power, efficient designs and eco-friendly materials to reduce emissions and improve living conditions.
+                        Focuses on creating sustainable housing using:less and renewable power, efficient designs and eco-friendly materials to reduce emissions and improve living conditions.
                     </Card>
 
                     <Card 
@@ -152,7 +152,7 @@ export function SustainabilityCards(){
                         footer="Food/Water Pathway Cards"
                     >
                     <div><div style={{ height: "2px", backgroundColor: "#2E6417", width: "90%", margin: "20px" }} /></div>
-                        encourages the environmentally friendly production and consumption of food and water by consuming less water in and outside of our homes while also wasting less food. The goals for this pathway are improving water use efficiency, ending food and water scarcity and reducing pollution.
+                        Encourages the environmentally friendly production and consumption of food and water by consuming less water in and outside of our homes while also wasting less food. The goals for this pathway are improving water use efficiency, ending food and water scarcity and reducing pollution.
                     </Card>
 
                     <Card 
@@ -207,7 +207,7 @@ export function SustainabilityCards(){
                         footer="Consumer Purchases Pathway Cards"
                     >
                     <div><div style={{ height: "2px", backgroundColor: "#C5192D", width: "90%", margin: "20px" }} /></div>
-                        tracks the lifecycle of products people buy: how they're made, transported, used, and thrown away, and how each stage contributes to carbon emissions, waste, and resource depletion.
+                        Tracks the lifecycle of products people buy: how they're made, transported, used, and thrown away, and how each stage contributes to carbon emissions, waste, and resource depletion.
                     </Card>
                 
                     <Card 

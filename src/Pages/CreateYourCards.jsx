@@ -67,7 +67,7 @@ export function CreateYourCards(){
                                   
                         >
                         <div><div  style={{ height: "2px", backgroundColor: "#0097B2", width: "90%", margin: "20px" }} /></div>
-                            focuses creating on sustainable housing using:less and renewable power, efficient designs and eco-friendly materials to reduce emissions and improve living conditions.
+                            Focuses creating on sustainable housing using:less and renewable power, efficient designs and eco-friendly materials to reduce emissions and improve living conditions.
                         </Card>
                     </div>
                         <div style={{backgroundColor:" rgb(124, 188, 196)",margin:"10px", width: "100%", height: "clamp(600px, 41vw, 900px)",display:"flex", alignItems:"center", justifyContent:"center",position:"relative", borderRadius:"15px"}}>
@@ -98,7 +98,7 @@ export function CreateYourCards(){
                             
                         >
                         <div><div style={{ height: "2px", backgroundColor: "#2E6417", width: "90%", margin: "20px" }} /></div>
-                            encourages the environmentally friendly production and consumption of food and water by consuming less water in and outside of our homes while also wasting less food. The goals for this pathway are improving water use efficiency, ending food and water scarcity and reducing pollution.
+                            Encourages the environmentally friendly production and consumption of food and water by consuming less water in and outside of our homes while also wasting less food. The goals for this pathway are improving water use efficiency, ending food and water scarcity and reducing pollution.
                          </Card>
                     </div>
                         <div style={{backgroundColor:"rgb(136, 211, 147)", width: "100%", height: "clamp(600px, 41vw, 900px)",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}>
@@ -127,7 +127,7 @@ export function CreateYourCards(){
                             footer="Consumer Purchases Pathway Cards"
                         >
                         <div><div style={{ height: "2px", backgroundColor: "#C5192D", width: "90%", margin: "20px" }} /></div>
-                            tracks the lifecycle of products people buy: how they're made, transported, used, and thrown away, and how each stage contributes to carbon emissions, waste, and resource depletion.
+                            Tracks the lifecycle of products people buy: how they're made, transported, used, and thrown away, and how each stage contributes to carbon emissions, waste, and resource depletion.
                         </Card>
                    </div>
                         <div style={{backgroundColor:"rgb(230, 156, 156)", width: "100%", height: "clamp(600px, 41vw, 900px)",display:"flex", alignItems:"center", justifyContent:"center",margin:"10px",position:"relative", borderRadius:"15px"}}>

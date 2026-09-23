@@ -56,7 +56,7 @@ export function SDGCards(){
             imgSrc={oneIcon}
             imgAlt="Illustration representing No Poverty">
             <div><div style={{ height: "2px", backgroundColor: "#E5243B", width: "90%", margin: "20px" }} /></div>
-            end poverty in all its forms everywhere.
+            End poverty in all its forms everywhere.
         </Card>
             
         <Card
@@ -68,7 +68,7 @@ export function SDGCards(){
             imgSrc={twoIcon}
             imgAlt="Illustration representing Zero Hunger">
              <div><div style={{ height: "2px", backgroundColor: "#DDA63A", width: "90%", margin: "20px" }} /></div>
-            end hunger, achieve food security and improved nutrition and promote sustainable agriculture.
+            End hunger, achieve food security and improved nutrition and promote sustainable agriculture.
         </Card> 
         
         <Card
@@ -92,7 +92,7 @@ export function SDGCards(){
             imgSrc={fourIcon}
             imgAlt="Illustration representing Quality Education">
              <div><div style={{ height: "2px", backgroundColor: "#C5192D", width: "90%", margin: "20px" }} /></div>
-             ensure inclusive and equitably quality education and promote lifetime of learning opportunities for all.
+             Ensure inclusive and equitably quality education and promote lifetime of learning opportunities for all.
         </Card> 
         
         <Card
@@ -104,7 +104,7 @@ export function SDGCards(){
             imgSrc={fiveIcon}
             imgAlt="Illustration representing Gender Equality">
              <div><div style={{ height: "2px", backgroundColor: "#FF3A21", width: "90%", margin: "20px" }} /></div>
-            achieve gender equality and empower all women and girls.
+            Achieve gender equality and empower all women and girls.
         </Card> 
         
         <Card
@@ -116,7 +116,7 @@ export function SDGCards(){
             imgSrc={sixIcon}
             imgAlt="Illustration representing Clean Water and Sanitation">
              <div><div style={{ height: "2px", backgroundColor: "#26BDE2", width: "90%", margin: "20px" }} /></div>
-             ensure the availability and sustainable management of water and sanitation for all.
+             Ensure the availability and sustainable management of water and sanitation for all.
         </Card>
 
         <Card
@@ -128,7 +128,7 @@ export function SDGCards(){
             imgSrc={sevenIcon}
             imgAlt="Illustration representing Affordable and Clean Energy">
              <div><div style={{ height: "2px", backgroundColor: "#FCC30B", width: "90%", margin: "20px" }} /></div>
-             ensure access to affordable, reliable, sustainable, and modern energy for all.
+             Ensure access to affordable, reliable, sustainable, and modern energy for all.
         </Card>
           
         <Card
@@ -140,7 +140,7 @@ export function SDGCards(){
             imgSrc={eightIcon}
             imgAlt="Illustration representing Decent Work and Economic Growth">
              <div><div style={{ height: "2px", backgroundColor: "#A21942", width: "90%", margin: "20px" }} /></div>
-             promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.
+             Promote sustained, inclusive, and sustainable economic growth, full and productive employment, and decent work for all.
         </Card> 
         
         <Card
@@ -152,7 +152,7 @@ export function SDGCards(){
             imgSrc={nineIcon}
             imgAlt="Illustration representing Industry, Innovation and Infrastructure">
              <div><div style={{ height: "2px", backgroundColor: "#FD6925", width: "90%", margin: "20px" }} /></div>
-             build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation.
+             Build resilient infrastructure, promote inclusive and sustainable industrialization, and foster innovation.
         </Card> 
         
         <Card
@@ -164,7 +164,7 @@ export function SDGCards(){
             imgSrc={tenIcon}
             imgAlt="Illustration representing Reduced Inequalities">
              <div><div style={{ height: "2px", backgroundColor: "#DD1367", width: "90%", margin: "20px" }} /></div>
-             reduce inequality within and among countries.
+             Reduce inequality within and among countries.
         </Card> 
         
         <Card
@@ -176,7 +176,7 @@ export function SDGCards(){
             imgSrc={elevenIcon}
             imgAlt="Illustration representing Sustainable Cities and Communities">
              <div><div style={{ height: "2px", backgroundColor: "#FD9D24", width: "90%", margin: "20px" }} /></div>
-             make cities and human settlements inclusive, safe, and sustainable.
+             Make cities and human settlements inclusive, safe, and sustainable.
 
         </Card> 
         
@@ -189,7 +189,7 @@ export function SDGCards(){
             imgSrc={twelveIcon}
             imgAlt="Illustration representing Responsible Consumption and Production">
              <div><div style={{ height: "2px", backgroundColor: "#BF8B2E", width: "90%", margin: "20px" }} /></div>
-             ensure sustainable consumption and production patterns.
+             Ensure sustainable consumption and production patterns.
         </Card>
 
         <Card
@@ -201,7 +201,7 @@ export function SDGCards(){
             imgSrc={thirteenIcon}
             imgAlt="Illustration representing Climate Action">
              <div><div style={{ height: "2px", backgroundColor: "#3F7E44", width: "90%", margin: "20px" }} /></div>
-             take urgent action to combat climate change and its impacts.
+             Take urgent action to combat climate change and its impacts.
         </Card> 
         
         <Card
@@ -213,7 +213,7 @@ export function SDGCards(){
             imgSrc={fourteenIcon}
             imgAlt="Illustration representing Life Below Water">
              <div><div style={{ height: "2px", backgroundColor: "#0A97D9", width: "90%", margin: "20px" }} /></div>
-            conserve and sustainably use the oceans, seas, and marine resources for sustainable development.
+            Conserve and sustainably use the oceans, seas, and marine resources for sustainable development.
         </Card> 
         
         <Card
@@ -225,7 +225,7 @@ export function SDGCards(){
             imgSrc={fifteenIcon}
             imgAlt="Illustration representing Life on Land">
              <div><div style={{ height: "2px", backgroundColor: "#56C02B", width: "90%", margin: "20px" }} /></div>
-            protect, restore, and promote the sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification and halt and reverse land degradation and halt biodiversity loss.
+            Protect, restore, and promote the sustainable use of terrestrial ecosystems, sustainably manage forests, combat desertification and halt and reverse land degradation and halt biodiversity loss.
         </Card> 
         
         <Card
@@ -237,7 +237,7 @@ export function SDGCards(){
              imgSrc={sixteenIcon}
              imgAlt="Illustration representing Peace Justice and Strong Institutions">
              <div><div style={{ height: "2px", backgroundColor: "#00689D", width: "90%", margin: "20px" }} /></div>
-            promote peaceful and inclusive societies, provide access to justice for all, and build effective, accountable and inclusive institutions at all levels.
+            Promote peaceful and inclusive societies, provide access to justice for all, and build effective, accountable and inclusive institutions at all levels.
         </Card> 
         
         <Card
@@ -249,7 +249,7 @@ export function SDGCards(){
              imgSrc={seventeenIcon}
              imgAlt="Illustration representing Partnerships for the Goal">
              <div><div style={{ height: "2px", backgroundColor: "#19486A", width: "90%", margin: "20px" }} /></div>
-            strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development.
+            Strengthen the means of implementation and revitalize the Global Partnership for Sustainable Development.
         </Card>
         </div>
         </>

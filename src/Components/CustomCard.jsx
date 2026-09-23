@@ -21,7 +21,7 @@ import cartIcon from '../assets/shoppingcart.png'
 import handIcon from '../assets/hand.png'
 import './card.css'
 
-export function CustomCard({type, logoSrc,variant,footer,lineColor,title: savedTitle, bodyText: savedBodyText, currentIndex: savedIndex, onUpdateCard, isDeleteMode,onDeleteCard, cardRef}){
+export function CustomCard({type, logoSrc,variant,footer,lineColor,title: savedTitle, bodyText: savedBodyText, currentIndex: savedIndex, onUpdateCard,onDeleteCard, cardRef, }){
     const cardTypeTitles = {
         global: "GLOBAL ISSUES",
         national: "NATIONAL ISSUES",
@@ -161,15 +161,16 @@ export function CustomCard({type, logoSrc,variant,footer,lineColor,title: savedT
   
     return(
         <div style={{ display: "flex", gap: "20px", alignItems: "flex-start", position:"relative"}}>
-        {isDeleteMode && (
+    
         <button
             onClick={onDeleteCard}/*trash button */
+            className="no-print"
             style={{position: "absolute",top: "15px",right: "15px",zIndex: 20,cursor: "pointer",background:"none",border: "none",color: "white",fontSize: "20px",
         }}
       >
        <i class="bi bi-trash trash"></i>
       </button>
-    )}
+
     <div ref ={cardRef}>
         <Card
             logoSrc={logoSrc}

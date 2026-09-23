@@ -33,7 +33,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
             <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            These seven goals provide guidance on urgent and immediate actions we can take in the care of our common home. 
+            These seven goals provide guidance on urgent and immediate actions we can take to care for common home. 
             “All of us can cooperate as instruments of God for the care of creation, each according to his or her own culture, experience,
             involvements and talents” (Laudato Si' 14)
             </Card>
@@ -46,7 +46,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
              <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            is a call to protect our common home for the well-being of all living creatures as we equitably address the climate crisis, 
+            Protects our common home for the well-being of all living creatures as we equitably address the climate crisis, 
             biodiversity loss, and ecological sustainability
             </Card>
 
@@ -58,7 +58,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
             <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            acknowledges that the economy is a sub-system of human society, which itself is embedded within the biosphere, our common home.
+            Acknowledges that the economy is a sub-system of human society, which itself is embedded within the biosphere, our common home.
             </Card>
 
             <Card 
@@ -69,7 +69,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
             <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            is grounded in the idea of sufficiency and not overusing resources and energy.
+            Grounded in the idea of sufficiency and not overusing resources and energy.
             </Card>
 
             <Card 
@@ -80,7 +80,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
             <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            is about re-thinking and re-designing curricular and institutional reform in the spirit of integral ecology in order 
+            Re-thinking and re-designing curricular and institutional reform in the spirit of integral ecology in order 
             to foster ecological awareness and transformative action.
             </Card>
 
@@ -92,7 +92,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
             <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            helps us to “discover God in all things”,  in the beauty of creation and in the sighs of the sick and the groans of the afflicted,  
+            Helps us to “discover God in all things”,  in the beauty of creation and in the sighs of the sick and the groans of the afflicted,  
             the life of the spirit is not dissociated from worldly realities.
             </Card>
 
@@ -104,7 +104,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
             <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            imagines a communal journey of community engagement and participatory action at various levels.
+            Imagines a communal journey of community engagement and participatory action at various levels.
             </Card>
 
              <Card 
@@ -115,7 +115,7 @@ export function LaudatoSiCards(){
             imgFormat="laudatosi"
             >
             <div><div style={{ height: "2px", backgroundColor: "#255c26", width: "90%", margin: "20px" }} /></div>
-            is a call to promote eco-justice, aware that we are called to defend human life from conception to death and all forms of life on Earth.
+           Promotes eco-justice, aware that we are called to defend human life from conception to death and all forms of life on Earth.
             </Card>
 
             
